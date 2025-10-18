@@ -1,0 +1,10 @@
+app_title: "Constellation Notebook (Local)"
+data_dir: "./data"
+sqlite_path: "./data/notes.db"
+chroma_path: "./data/chroma"
+openai_api_key: null  # Prefer env var OPENAI_API_KEY; if set here, it's used as a fallback.
+chat_model: "gpt-4o-mini"
+embed_model: "text-embedding-3-small"
+top_k: 5
+kmeans_k: 6
+temperature: 0.2

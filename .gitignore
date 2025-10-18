@@ -1,0 +1,25 @@
+# Byte-compiled / generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment variables
+.env
+
+# Streamlit caching / secrets
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# Local data stores generated at runtime
+data/
+
+# OS-specific files
+.DS_Store
+
+# Misc cache
+.pytest_cache/
